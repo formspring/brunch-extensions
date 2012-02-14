@@ -1,4 +1,4 @@
-dust = require 'dust'
+dust = require 'dust-mephux'
 {BaseLanguage} = require './base'
 
 class exports.DustLanguage extends BaseLanguage
