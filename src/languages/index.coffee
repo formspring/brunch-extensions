@@ -12,6 +12,6 @@
 
 module.exports = {
   BaseLanguage, CoffeeScriptLanguage, CSSLanguage, EcoLanguage,
-  JadeLanguage, JavaScriptLanguage, HoganLanguage,
+  JadeLanguage, JavaScriptLanguage, HoganLanguage, DustLanguage
   LESSLanguage, RoyLanguage, SassLanguage, StylusLanguage,
 }
