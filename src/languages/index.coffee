@@ -9,6 +9,7 @@
 {RoyLanguage} = require './roy'
 {SassLanguage} = require './sass'
 {StylusLanguage} = require './stylus'
+{DustLanguage} = require './dust'
 
 module.exports = {
   BaseLanguage, CoffeeScriptLanguage, CSSLanguage, EcoLanguage,
