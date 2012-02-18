@@ -6,7 +6,7 @@ class exports.DustLanguage extends BaseLanguage
     @readFile file, (error, data) ->
       return callback error if error?
       try
-        content = dust.compile data, file.split('templates')[1].replace(/\.dust/, '')
+        content = dust.compile data, file.split('templates/')[1].replace(/\.dust/, '')
         callback null, "module.exports = " + JSON.stringify(content) + ";"
       catch error
         callback error
